@@ -7,21 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC04C2531E00EAC9009AE642 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC04C2521E00EAC9009AE642 /* AppDelegate.swift */; };
-		EC04C2551E00EAC9009AE642 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC04C2541E00EAC9009AE642 /* ViewController.swift */; };
-		EC04C2581E00EAC9009AE642 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC04C2561E00EAC9009AE642 /* Main.storyboard */; };
-		EC04C25A1E00EAC9009AE642 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC04C2591E00EAC9009AE642 /* Assets.xcassets */; };
-		EC04C25D1E00EAC9009AE642 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC04C25B1E00EAC9009AE642 /* LaunchScreen.storyboard */; };
+		EC04C2741E00EBB7009AE642 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC04C2651E00EBB7009AE642 /* AppDelegate.swift */; };
+		EC04C2751E00EBB7009AE642 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC04C2671E00EBB7009AE642 /* ViewController.swift */; };
+		EC04C2761E00EBB7009AE642 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC04C26B1E00EBB7009AE642 /* Assets.xcassets */; };
+		EC04C2771E00EBB7009AE642 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC04C26E1E00EBB7009AE642 /* Info.plist */; };
+		EC04C2781E00EBB7009AE642 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC04C2721E00EBB7009AE642 /* LaunchScreen.storyboard */; };
+		EC04C2791E00EBB7009AE642 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC04C2731E00EBB7009AE642 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EC04C24F1E00EAC9009AE642 /* WebserviceApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebserviceApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC04C2521E00EAC9009AE642 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EC04C2541E00EAC9009AE642 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EC04C2571E00EAC9009AE642 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EC04C2591E00EAC9009AE642 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EC04C25C1E00EAC9009AE642 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EC04C25E1E00EAC9009AE642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC04C2651E00EBB7009AE642 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC04C2671E00EBB7009AE642 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC04C26B1E00EBB7009AE642 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC04C26E1E00EBB7009AE642 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC04C2721E00EBB7009AE642 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC04C2731E00EBB7009AE642 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +55,94 @@
 		EC04C2511E00EAC9009AE642 /* WebserviceApi */ = {
 			isa = PBXGroup;
 			children = (
-				EC04C2521E00EAC9009AE642 /* AppDelegate.swift */,
-				EC04C2541E00EAC9009AE642 /* ViewController.swift */,
-				EC04C2561E00EAC9009AE642 /* Main.storyboard */,
-				EC04C2591E00EAC9009AE642 /* Assets.xcassets */,
-				EC04C25B1E00EAC9009AE642 /* LaunchScreen.storyboard */,
-				EC04C25E1E00EAC9009AE642 /* Info.plist */,
+				EC04C2641E00EBB7009AE642 /* Application */,
+				EC04C2661E00EBB7009AE642 /* Controller */,
+				EC04C2681E00EBB7009AE642 /* Librery */,
+				EC04C2691E00EBB7009AE642 /* Models */,
+				EC04C26A1E00EBB7009AE642 /* Resource */,
+				EC04C26C1E00EBB7009AE642 /* Service */,
+				EC04C26D1E00EBB7009AE642 /* Supporting Files */,
+				EC04C26F1E00EBB7009AE642 /* View */,
 			);
 			path = WebserviceApi;
+			sourceTree = "<group>";
+		};
+		EC04C2641E00EBB7009AE642 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				EC04C2651E00EBB7009AE642 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		EC04C2661E00EBB7009AE642 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EC04C2671E00EBB7009AE642 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EC04C2681E00EBB7009AE642 /* Librery */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Librery;
+			sourceTree = "<group>";
+		};
+		EC04C2691E00EBB7009AE642 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EC04C26A1E00EBB7009AE642 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				EC04C26B1E00EBB7009AE642 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		EC04C26C1E00EBB7009AE642 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		EC04C26D1E00EBB7009AE642 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC04C26E1E00EBB7009AE642 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC04C26F1E00EBB7009AE642 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC04C2701E00EBB7009AE642 /* Custom Cell */,
+				EC04C2711E00EBB7009AE642 /* Storyboad */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC04C2701E00EBB7009AE642 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		EC04C2711E00EBB7009AE642 /* Storyboad */ = {
+			isa = PBXGroup;
+			children = (
+				EC04C2721E00EBB7009AE642 /* LaunchScreen.storyboard */,
+				EC04C2731E00EBB7009AE642 /* Main.storyboard */,
+			);
+			path = Storyboad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +205,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC04C25D1E00EAC9009AE642 /* LaunchScreen.storyboard in Resources */,
-				EC04C25A1E00EAC9009AE642 /* Assets.xcassets in Resources */,
-				EC04C2581E00EAC9009AE642 /* Main.storyboard in Resources */,
+				EC04C2791E00EBB7009AE642 /* Main.storyboard in Resources */,
+				EC04C2761E00EBB7009AE642 /* Assets.xcassets in Resources */,
+				EC04C2781E00EBB7009AE642 /* LaunchScreen.storyboard in Resources */,
+				EC04C2771E00EBB7009AE642 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,31 +219,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC04C2551E00EAC9009AE642 /* ViewController.swift in Sources */,
-				EC04C2531E00EAC9009AE642 /* AppDelegate.swift in Sources */,
+				EC04C2741E00EBB7009AE642 /* AppDelegate.swift in Sources */,
+				EC04C2751E00EBB7009AE642 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		EC04C2561E00EAC9009AE642 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EC04C2571E00EAC9009AE642 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EC04C25B1E00EAC9009AE642 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EC04C25C1E00EAC9009AE642 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EC04C25F1E00EAC9009AE642 /* Debug */ = {
@@ -260,7 +323,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QKY55K6NCH;
-				INFOPLIST_FILE = WebserviceApi/Info.plist;
+				INFOPLIST_FILE = "WebserviceApi/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.WebserviceApi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,7 +336,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QKY55K6NCH;
-				INFOPLIST_FILE = WebserviceApi/Info.plist;
+				INFOPLIST_FILE = "WebserviceApi/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.WebserviceApi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
