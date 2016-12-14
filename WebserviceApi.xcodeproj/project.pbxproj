@@ -13,6 +13,7 @@
 		EC04C2771E00EBB7009AE642 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC04C26E1E00EBB7009AE642 /* Info.plist */; };
 		EC04C2781E00EBB7009AE642 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC04C2721E00EBB7009AE642 /* LaunchScreen.storyboard */; };
 		EC04C2791E00EBB7009AE642 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC04C2731E00EBB7009AE642 /* Main.storyboard */; };
+		EC04C27B1E011925009AE642 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC04C27A1E011925009AE642 /* HomeTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		EC04C26E1E00EBB7009AE642 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC04C2721E00EBB7009AE642 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC04C2731E00EBB7009AE642 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EC04C27A1E011925009AE642 /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				EC04C2671E00EBB7009AE642 /* ViewController.swift */,
+				EC04C27A1E011925009AE642 /* HomeTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC04C27B1E011925009AE642 /* HomeTableViewController.swift in Sources */,
 				EC04C2741E00EBB7009AE642 /* AppDelegate.swift in Sources */,
 				EC04C2751E00EBB7009AE642 /* ViewController.swift in Sources */,
 			);
@@ -363,6 +367,7 @@
 				EC04C2631E00EAC9009AE642 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
